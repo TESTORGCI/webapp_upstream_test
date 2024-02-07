@@ -17,3 +17,5 @@ DIALECT = mysql
 
  
 To run the application run npm start
+
+README updated
