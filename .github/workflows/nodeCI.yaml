@@ -1,8 +1,10 @@
 name: nodeCI
 on:
+  on:
+  push:
+    branches: [ "main" ]
   pull_request:
-    branches:
-      - main
+    branches: [ "main" ]
 jobs:
   integration-test:
     runs-on: ubuntu-latest
